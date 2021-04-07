@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Arcias Covid_19</string>
+    <string name="country_list">Country wise covid-19 latest data based on new Cases</string>
+    <string name="top_five">Top Five Countries Based on New Cases</string>
+    <string name="world_bar_title">World`s covid Bar Graph Data</string>
+    <string name="world_data">This Application provides covid-19 data across the world</string>
+    <string name="api">We are using api to show the data</string>
+    <string name="bar_chart">We are using bar chart to the data</string>
+    <string name="pie_chart">We are using pie chart as well for showing the data</string>
+</resources>

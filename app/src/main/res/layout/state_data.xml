@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+
+         android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp"
+             android:padding="5dp"
+             android:layout_gravity="center"
+             android:background="#e7e7e7"
+             android:weightSum="5">
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:textSize="12sp"
+                 android:id="@+id/state_name"/>
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:textSize="12sp"
+                 android:id="@+id/total_cases"/>
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:textSize="12sp"
+                 android:id="@+id/total_deaths"/>
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:textSize="12sp"
+                 android:id="@+id/total_recovered"/>
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:textSize="12sp"
+                 android:id="@+id/date"/>
+         </LinearLayout>
+     </androidx.cardview.widget.CardView>
+</LinearLayout>
